@@ -1,0 +1,60 @@
+.main {
+  width:80vw;
+  overflow:hidden;
+  background-color: #ffffff;
+  margin: .5em auto;
+  height: 35px;
+  /* font-size: 1em; */
+  color: #354B54;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 7px -4px #999;
+  display: flex;
+  align-items: center;
+}
+.main p{
+  font-size: 0.8rem;
+}
+.slide-right p {
+  -moz-animation: 10s slide-right;
+  -webkit-animation: 10s slide-right;
+  -o-animation: 10s slide-right;
+  animation: 10s slide-right;
+  margin:0;
+}
+.slide-left p {
+  -moz-animation: 10s slide-left;
+  -webkit-animation: 10s slide-left;
+  -o-animation: 10s slide-left;
+  animation: 10s slide-left;
+  margin:0;
+}
+
+
+@media screen and (max-width: 1024px){
+  .main {
+  width:95vw;
+  font-size: .85rem;
+}
+.main p{
+  font-size: 0.75rem;
+}
+}
+
+@-webkit-keyframes slide-right { from { margin-left: 100%;width: 300%; }
+  to {margin-left: 0%;width: 100%;} }
+@-moz-keyframes slide-right { from { margin-left: 100%;width: 300%; }
+  to {margin-left: 0%;width: 100%;} }
+ @-o-keyframes slide-right { from { margin-left: 100%;width: 300%; }
+  to {margin-left: 0%;width: 100%;} }
+@keyframes slide-right { from { margin-left: 100%;width: 300%; }
+  to {margin-left: 0%;width: 100%;} }
+
+@-webkit-keyframes slide-left { from {margin-left: 0%;width: 100%;}
+ to {margin-left: -100%;width: 300%;} }
+@-moz-keyframes slide-left { from {margin-left: 0%;width: 100%;}
+ to {margin-left: -100%;width: 300%;} }
+@-o-keyframes slide-left { from {margin-left: 0%;width: 100%;}
+ to {margin-left: -100%;width: 300%;} }
+@keyframes slide-left { from {margin-left: 0%;width: 100%;}
+ to {margin-left: -100%;width: 300%;} }

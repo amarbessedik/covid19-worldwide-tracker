@@ -1,0 +1,30 @@
+.country{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    box-shadow: 0 0 8px -4px #333;
+    border-radius: 5px;  
+    overflow: hidden;  
+}
+.country__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.country__image img{
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
+}
+.country__numbers{
+    /* border: 1px solid; */
+    width: 100%;
+}
+.country__numbers ul{
+    list-style: none;
+}
+.country__numbers ul li{
+    margin: 5px;
+    font-size: .75rem;
+}
