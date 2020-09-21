@@ -86,19 +86,6 @@ const Tapp = () => {
     transition: "all ease-in-out 500ms",
   };
 
-  const adapteCasesType = (casesT) => {
-    switch (casesT) {
-      case "cases":
-        return "WID YUḌNEN";
-      case "recovered":
-        return "WID YEJJAN";
-      case "deaths":
-        return "WID YEMUTEN";
-      default:
-        return null;
-    }
-  };
-
   //This code runs once when the code is loaded and not again after
   useEffect(() => {
     const getTotalsWorldwide = async () => {
@@ -135,9 +122,6 @@ const Tapp = () => {
   const onCountryChange = async (e) => {
     e.preventDefault();
     let countryCode = e.target.value;
-    if (countryCode === "AMAḌAL") {
-      countryCode = "worldwide";
-    }
 
     const url =
       countryCode === "worldwide"
@@ -191,7 +175,7 @@ const Tapp = () => {
               onChange={onCountryChange}
             >
               <MenuItem key="0" value="worldwide">
-                <span>AMAḌAL</span>
+                <span>Worldwide</span>
               </MenuItem>
               {
                 /* loop through all countries and display each as an option */
@@ -218,7 +202,6 @@ const Tapp = () => {
             </div>
             <div id="graph" className="app__left__graph">
               <Graph
-                adapteCasesType={adapteCasesType}
                 casesType={casesType}
                 setCasesType={setCasesType}
                 countryInfo={countryInfo}
@@ -232,32 +215,32 @@ const Tapp = () => {
           <div className="app__right">
             <Continent
               continent="Africa"
-              title="aCuW-2 DI TFERKA"
+              title="(SARS-COV-2) IN AFRICA"
               imageUrl={africaImage}
             />
             <Continent
               continent="north%20america"
-              title="aCuW-2 DI MARIKAN UFELLA"
+              title="(SARS-COV-2) IN NORTH AMERICA"
               imageUrl={northAmericaImage}
             />
             <Continent
               continent="Europe"
-              title="aCuW-2 DI URRUPA"
+              title="(SARS-COV-2) IN EUROPE"
               imageUrl={europeImage}
             />
             <Continent
               continent="Asia"
-              title="aCuW-2 DI ASIYA"
+              title="(SARS-COV-2) IN ASIA"
               imageUrl={asiaImage}
             />
             <Continent
               continent="south%20america"
-              title="aCuW-2 DI MARIKAN N WADDA"
+              title="(SARS-COV-2) IN SOUTH AMERICA"
               imageUrl={southAmericaImage}
             />
             <Continent
               continent="australia%2Foceania"
-              title="aCuW-2 DI USTRALIA/OCEANIA"
+              title="(SARS-COV-2) IN AUSTRALIA/OCEANIA"
               imageUrl={australiaImage}
             />
           </div>

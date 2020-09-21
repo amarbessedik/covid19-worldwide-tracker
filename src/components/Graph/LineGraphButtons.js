@@ -23,7 +23,7 @@ function LineGraphButtons({
         active={casesType === "cases"}
         isBlue={true}
         onClick={(e) => setCasesType("cases")}
-        title="WID YUḌNEN"
+        title="INFECTED"
         cases={prettyPrintStat(todayCases)}
         total={prettyPrintStat(cases)}
       />
@@ -33,7 +33,7 @@ function LineGraphButtons({
         active={casesType === "recovered"}
         isGreen={true}
         onClick={(e) => setCasesType("recovered")}
-        title="WID YEJJAN"
+        title="RECOVERED"
         cases={prettyPrintStat(todayRecovered)}
         total={prettyPrintStat(recovered)}
       />
@@ -43,7 +43,7 @@ function LineGraphButtons({
         active={casesType === "deaths"}
         isRed={true}
         onClick={(e) => setCasesType("deaths")}
-        title="WID YEMUTEN"
+        title="FATALITIES"
         cases={prettyPrintStat(todayDeaths)}
         total={prettyPrintStat(deaths)}
       />

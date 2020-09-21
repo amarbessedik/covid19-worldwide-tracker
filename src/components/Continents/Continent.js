@@ -19,7 +19,7 @@ class Continent extends Component {
         .then((data) => {
           const series = [data.cases, data.recovered, data.active, data.deaths];
           this.setState({ seriesPie: series });
-          this.setState({ seriesLine: [{ name: "aCuW-2", data: series }] });
+          this.setState({ seriesLine: [{ name: "SARS-COV-2", data: series }] });
           this.setState({
             options: {
               ...options,
@@ -48,7 +48,7 @@ class Continent extends Component {
               className={styles.continent__graph__btn}
               type="button"
             >
-              {!this.state.btnToggle ? "Tifggagin" : "Taẓayeṛt"}
+              {!this.state.btnToggle ? "BARS VIEW" : "BACK"}
             </button>
           </div>
           <div

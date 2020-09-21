@@ -9,8 +9,8 @@
   padding: 5px;
   border-radius: 3px;
   box-shadow: 0 0 7px -4px #999;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 .main p{
   font-size: 0.8rem;

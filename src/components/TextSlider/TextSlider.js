@@ -4,8 +4,8 @@ import "./TextSlider.css";
 const TextSlider = () => {
   const titles = [
     "COVID19 WORLDWIDE TRACKER (SARS-COV-2)",
-    "BE SURE TO SEEK SCIENTIFIC EVIDENCE!",
-    "WASH HANDS, WEAR MASK & PRACTICE SOCIAL DISTANCING",
+    "BE SURE TO FOLLOW SCIENCE AND BE WELL INFORMED!",
+    "WASH HANDS, WEAR A MASK & PRACTICE SOCIAL DISTANCING",
   ];
 
   const [index, setIndex] = useState(0);

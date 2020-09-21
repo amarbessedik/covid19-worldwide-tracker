@@ -23,7 +23,6 @@ function LineGraph({
             ? buildChartData(data_json.timeline, casesType)
             : buildChartData(data_json, casesType);
           setData(chartData);
-          // console.log('LineGraph >>> chartData:', chartData);
         });
     };
     fetchData();

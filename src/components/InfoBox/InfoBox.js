@@ -42,7 +42,7 @@ function InfoBox({
           </h2>
           {/* Total of cases */}
           <Typography className={styles.infoBox__total} color="textSecondary">
-            {total} Akit
+            {total} Total
           </Typography>
         </CardContent>
       </CardActionArea>

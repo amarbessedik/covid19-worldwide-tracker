@@ -11,7 +11,7 @@ const Stats = ({ casesType, setCasesType, countryInfo }) => {
           active={casesType === "cases"}
           isblue={true}
           onClick={(e) => setCasesType("cases")}
-          title="WID YUḌNEN"
+          title="Infected"
           cases={prettyPrintStat(countryInfo.todayCases)}
           total={prettyPrintStat(countryInfo.cases)}
         />
@@ -19,7 +19,7 @@ const Stats = ({ casesType, setCasesType, countryInfo }) => {
           active={casesType === "recovered"}
           isgreen={true}
           onClick={(e) => setCasesType("recovered")}
-          title="WID YEJJAN"
+          title="Recovered"
           cases={prettyPrintStat(countryInfo.todayRecovered)}
           total={prettyPrintStat(countryInfo.recovered)}
         />
@@ -27,7 +27,7 @@ const Stats = ({ casesType, setCasesType, countryInfo }) => {
           active={casesType === "deaths"}
           isred={true}
           onClick={(e) => setCasesType("deaths")}
-          title="WID YEMUTEN"
+          title="Fatalities"
           cases={prettyPrintStat(countryInfo.todayDeaths)}
           total={prettyPrintStat(countryInfo.deaths)}
         />

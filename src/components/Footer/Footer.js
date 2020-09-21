@@ -18,13 +18,13 @@ function Footer() {
               color: "#008FFB",
             }}
           >
-            <span>AMḌFAR AGREƔLAN N ANFAFAD N CURUNA WIS-2 (aCuW-2)</span>{" "}
+            <span>COVID-19 (SARS-COV-2) WORLDWIDE TRACKER</span>{" "}
           </h4>
         </li>
         <li style={center}>
           <span style={{ textTransform: "uppercase", fontSize: ".7rem" }}>
-            &copy; AJENYUR N USELKIMAN AMAR BESSEDIK <br /> MARIKAN UFLLA, ƔUCT
-            2020{" "}
+            &copy; DESIGNED &amp; BUILT BY AMAR BESSEDIK <br /> SOFTWARE
+            ENGINNER (REACT DEVELOPER) BASED IN USA, SEPTEMBER 2020
             {!new Date().getFullYear() === 2020
               ? " - " + new Date().getFullYear()
               : null}

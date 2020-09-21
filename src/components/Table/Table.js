@@ -15,7 +15,7 @@ function Table({ countries }) {
             fontWeight: "400",
           }}
         >
-          UṬṬUNEN SRID SI YELL TAMURT
+          Live from all countries
         </h3>
         <span
           style={{
@@ -26,18 +26,18 @@ function Table({ countries }) {
             color: "#888",
           }}
         >
-          [ Uṭṭunen <TrendingDownIcon /> ]
+          [ Numbers <TrendingDownIcon /> ]
         </span>
       </div>
       <div className={styles.table__inner__container}>
         <div className={styles.table}>
           <table>
             <tr style={{ paddingLeft: "5px" }}>
-              <th>TAMURT</th>
-              <th>UṬṬUNEN URMIDEN</th>
-              <th>WID YEMUTEN</th>
-              <th>WID YEJJAN</th>
-              <th>UṬṬUNEN AKIT</th>
+              <th>COUNTRY</th>
+              <th>ACTIVE</th>
+              <th>FATALITIES</th>
+              <th>RECOVERED</th>
+              <th>TOTAL CASES</th>
             </tr>
 
             {countries.map(

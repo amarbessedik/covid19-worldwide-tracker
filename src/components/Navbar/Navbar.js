@@ -49,7 +49,7 @@ const Navbar = ({ updateSidebarVisibility,toggleLinks, screenBreakpoint, dropdow
         <div className={styles.logo}>
           <div className={styles.logo__content}>
             <img src={logo} alt="logo" />
-            <h6>COVID19 WORLDWIDE TRACKER (SARS-COV-2)</h6>
+            <h6> COVID19 WORLDWIDE TRACKER (SARS-COV-2)</h6>
           </div>
         </div>
         <div className={styles.links}>

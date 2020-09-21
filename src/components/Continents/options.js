@@ -1,6 +1,6 @@
 export default {
   chart: {},
-  labels: ["Wid Yudnen", "Wid Yejjan", "Imudan", "Wid Yemuten"],
+  labels: ["Infected", "Recovered", "Active", "Fatalities"],
   legend: {
     position: "bottom",
     fontSize: "10px",

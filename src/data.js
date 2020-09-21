@@ -12,7 +12,7 @@ export default [
     id: "#graph",
   },
   {
-    name: "Info",
+    name: "Resources",
     id: "#dictionary",
   },
   {
