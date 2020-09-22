@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id="about" className={styles.app__about}>
       <h2>
-        Isfkaya-agi Ḥawcaɣ-ten-id deg{" "}
+        This data has been collected from{" "}
         <a
           className={styles.about__link}
           href="https://www.disease.sh"
@@ -14,15 +14,17 @@ const About = () => {
           rel="noopener noreferrer"
         >
           Open Disease Data <LinkIcon className={styles.link__icon} />
-        </a> 
+        </a>{" "}
+        API
       </h2>
       <p>
-        Ayen i d-yettbanen deg wuṭṭunen yezmer yenqes, imi, mazal ayen ara
-        d-ibanen akka ar deqqal, annect-agi, ɣef teɣzi n 24 n tsaεtin. Ma d
-        isefka; ttasen-d srid i yiman-nsen s ttawil n uẓeṭṭa n Internet, melba
-        ma iger-d umdan iman-is akken ad ten-isekcem neɣ ad ten-ibeddel s ufus,
-        annect-agi; iḍerru-d yal mi ara yili fkant-ten-id tmura ɣer tesqamuyin
-        gar-asent:{" "}
+        This data changes rapidly and might not reflect real-time numbers since
+        some cases still being reported. Total counts include both confirmed and
+        probable cases in some locations. Probable cases are identified by
+        public health officials and use criteria developed by government
+        authorities. Some areas may not have data because they haven’t published
+        their data or haven’t done so recently. A couple of different data
+        sources:{" "}
       </p>
       <ol>
         <li>
@@ -30,7 +32,7 @@ const About = () => {
             className={styles.about__link}
             href="https://github.com/CSSEGISandData/COVID-19"
           >
-            TASDAWIT N JOHNS HOPKINS
+            JOHNS HOPKINS UNIVERSITY
           </a>
         </li>
         <li>
@@ -38,7 +40,7 @@ const About = () => {
             className={styles.about__link}
             href="https://github.com/nytimes/covid-19-data"
           >
-            AƔMIS N NEW YORK TIMES
+            NEW YORK TIMES
           </a>
         </li>
         <li>
@@ -54,17 +56,15 @@ const About = () => {
             className={styles.about__link}
             href="https://github.com/ActiveConclusion/COVID19_mobility"
           >
-            IṚABULEN N APPLE.
+            APPLE REPPORTS
           </a>
         </li>
       </ol>
 
       <p>
-        Ma yella mgaraden wuṭṭunen si tesqamutt ɣer tayeḍ d tiliwa ansi i
-        d-ttawint isefka i yemgaraden. Yell tesqamutt ansi i d-tettḥawac
-        uṭṭunen, yerna, ttaznen-d di lewqat yemgaraden seg teɣmert ɣer tayeḍ.
-        Ssarameɣ annect-agi ad aken-yeğğ ad tesεum tamuɣli s tehri ɣef wayen
-        iḍerrun di kuz (4) n tɣemmar n umaḍal.
+        There are various sources that are tracking and aggregating coronavirus
+        data. They update at different times and may have different ways of
+        gathering data.
       </p>
     </div>
   );

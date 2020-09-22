@@ -3,7 +3,6 @@ import "./App.css";
 import ScrollTop from "./components/ScrollTop/ScrollTop";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
-import MultiLangDictionary from "./components/MultiLangDictionary/MultiLangDictionary";
 import Footer from "./components/Footer/Footer";
 import { sortData } from "./utils";
 import Map from "./components/Map/Map";
@@ -20,6 +19,7 @@ import africaImage from "../src/images/africa.jpg";
 import europeImage from "../src/images/europe.jpg";
 import asiaImage from "../src/images/asia.jpg";
 import australiaImage from "../src/images/australia.jpg";
+import Resources from "./components/Resources/Resources";
 
 const Tapp = () => {
   const [dropdownToggle, setDropdownToggle] = useState(false);
@@ -247,8 +247,9 @@ const Tapp = () => {
         </div>
       </div>
       <div id="dictionary" className="app__bottom">
-        <div className="multi__lang__dictionary">
-          <MultiLangDictionary />
+        <div className="info__resources">
+          <div style={{width: '80vw', margin:'auto', padding:'20px 0'}}><h2 style={{fontWeight: '400', lineHeight: '1.33', fontSize:'1.5rem'}}>Useful Resources</h2></div>
+          <Resources />
         </div>
         <div id="about" className="about">
           <About />
