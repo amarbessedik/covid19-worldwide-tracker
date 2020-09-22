@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.502e64ba.chunk.css",
+    "main.js": "/static/js/main.21f283c1.chunk.js",
+    "main.js.map": "/static/js/main.21f283c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.085de968.js",
+    "runtime-main.js.map": "/static/js/runtime-main.085de968.js.map",
+    "static/css/2.a4567992.chunk.css": "/static/css/2.a4567992.chunk.css",
+    "static/js/2.67395ed6.chunk.js": "/static/js/2.67395ed6.chunk.js",
+    "static/js/2.67395ed6.chunk.js.map": "/static/js/2.67395ed6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.52cefea1ccab00f418feb371a022465f.js": "/precache-manifest.52cefea1ccab00f418feb371a022465f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a4567992.chunk.css.map": "/static/css/2.a4567992.chunk.css.map",
+    "static/css/main.502e64ba.chunk.css.map": "/static/css/main.502e64ba.chunk.css.map",
+    "static/js/2.67395ed6.chunk.js.LICENSE.txt": "/static/js/2.67395ed6.chunk.js.LICENSE.txt",
+    "static/media/africa.jpg": "/static/media/africa.8b522d29.jpg",
+    "static/media/asia.jpg": "/static/media/asia.a5ecd55f.jpg",
+    "static/media/australia.jpg": "/static/media/australia.8fb2fd6c.jpg",
+    "static/media/Stats.module.css": "/static/media/bg.47365a06.jpg",
+    "static/media/cdc.jpeg": "/static/media/cdc.2106e13a.jpeg",
+    "static/media/europe.jpg": "/static/media/europe.5d8ab87e.jpg",
+    "static/media/hhs.jpg": "/static/media/hhs.7b26ec9e.jpg",
+    "static/media/logo.png": "/static/media/logo.c50dfc3b.png",
+    "static/media/north-america.jpg": "/static/media/north-america.48d23fba.jpg",
+    "static/media/south-america.jpg": "/static/media/south-america.149a2913.jpg",
+    "static/media/who.jpg": "/static/media/who.ba61b1bf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.085de968.js",
+    "static/css/2.a4567992.chunk.css",
+    "static/js/2.67395ed6.chunk.js",
+    "static/css/main.502e64ba.chunk.css",
+    "static/js/main.21f283c1.chunk.js"
+  ]
+}
